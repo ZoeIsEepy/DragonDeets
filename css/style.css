@@ -1,0 +1,39 @@
+body {
+    background-color: #181818;
+}
+
+.starforger {
+    background-color: #808080 !important;
+    border-color: #808080 !important;
+}
+
+.starforger-dropdown {
+    background-color: #606060 !important;
+    border-color: #606060 !important;
+}
+
+p, h1, h2, h3, a, button{
+    color: #fff !important;
+}
+
+/* Main page navigation interactions */
+.dragon a:hover,
+.dragon button:hover,
+.dragon li a:hover {
+    color:red !important;
+}
+
+.wyvern a:hover::after {
+    background: darkred;
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 5px;
+    left: 0px;
+    padding: 2px;
+}
+
+.nav-buttons {
+    padding: 0px 10px;
+    font-family: Tahoma;
+}
