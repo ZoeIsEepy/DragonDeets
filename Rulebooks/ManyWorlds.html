@@ -8,7 +8,11 @@
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-        <link href="./css/style.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <link href="../css/pdfViewing.css" rel="stylesheet">
+
+        <script src="../src/LoadPdfs.js" >
+        </script>
     </head>
     <body>
         <!-- Navigation -->
@@ -16,7 +20,7 @@
             <!-- Hamburger menu -->
             <div class="fixed-top d-sm-none">
                 <nav class="navbar navbar-light bf-light d-flex align-items-center" style="gap: 10px">
-                    <a class="navbar-brand d-sm-none" href="index.html">
+                    <a class="navbar-brand d-sm-none" href="../index.html">
                         <img src="" alt="logo" style="width:80px">
                     </a>
                     <h3>DragonDeets</h3>
@@ -33,7 +37,7 @@
                             <div class="dropdown"> <!-- Drowndown items -->
                                 <a href="" class="btn hamburger-button">Item 1</a>
                                 <div class="dropdown-divider"></div>
-                                <a href="Rulebooks.html" class="btn hamburger-button">Rulebooks</a>
+                                <a href="Rulebooks.html" class="btn hamburger-button" >Rulebooks</a>
                                 <div class="dropdown-divider"></div>
                                 <a href="" class="btn btn-lg btn-primary" style="background-color: rebeccapurple; border-color: rebeccapurple;">Sign in</a>
                             </div>
@@ -44,7 +48,7 @@
             </div>
             <div class="d-md-none" style="height:50px;"></div>
             <!-- Hamburger menu end -->
-            <a class="navbar-brand d-none d-sm-block" href="index.html">
+            <a class="navbar-brand d-none d-sm-block" href="../index.html">
                 <img src="" alt="logo" style="width:100px;">
             </a>
             <div class="d-none d-sm-block">
@@ -52,11 +56,11 @@
                 <ul class="navbar-nav dragon">
                     <div class="btn-group dragon starforger" style="width: fit-content;">
                         <a href="" class="btn btn-light d-none d-sm-block starforger">Item 1</a>
-                        <a href="Rulebooks.html" class="btn btn-light d-none d-sm-block starforger">Rulebooks</a>
+                        <a href="../Rulebooks.html" class="btn btn-light d-none d-sm-block starforger">Rulebooks</a>
                         <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-spilt starforger" data-toggle="dropdown"></button>
                         <div class="dropdown-menu starforger-dropdown">
                             <div class="wyvern starforger-dropdown">
-                                <a href="./Rulebooks/ManyWorlds.html" class="btn">ManyWorlds TTRPG</a>
+                                <a href="" class="btn">ManyWorlds TTRPG</a>
                             </div>
                             <div class="dropdown-divider starforger-dropdown"></div>
                             <div class="wyvern">
@@ -80,6 +84,9 @@
             </div>
         </nav>
         <!-- End Navigation -->
-        <h1>UwU</h1>
+        <div class="">
+            <embed src="https://homebrewery.naturalcrit.com/share/i6QR7NjVFMVL" type="application/pdf" class="pdf" title="wawawa"/>
+            <!-- width="70%" height="1000" style="margin-left: 15%; border:none;" -->
+        </div>
     </body>
 </html>

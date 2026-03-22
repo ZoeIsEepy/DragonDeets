@@ -37,3 +37,14 @@ p, h1, h2, h3, a, button{
     padding: 0px 10px;
     font-family: Tahoma;
 }
+
+.hamburger-button {
+    color: black !important;
+}
+
+#outerContainer #mainContainer div.toolbar {
+  display: none !important; /* hide PDF viewer toolbar */
+}
+#outerContainer #mainContainer #viewerContainer {
+  top: 0 !important; /* move doc up into empty bar space */
+}
